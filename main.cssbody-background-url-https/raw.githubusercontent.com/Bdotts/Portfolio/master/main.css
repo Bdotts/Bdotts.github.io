@@ -1,0 +1,91 @@
+body {
+  background: url("https://raw.githubusercontent.com/Bdotts/Portfolio/master/brickwall.jpg") center center no-repeat;
+}
+
+.container {
+  background: rgba(171,171,171,0.5); 
+}
+header p {
+  font-family: times;
+  font-size: 28px;
+  display: block;
+  margin: 15px 8000px 0px 30px;
+  color: white;
+}
+
+nav {
+    margin-top: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #333;
+}
+
+#tagline {
+    text-align: center;
+    margin: 50px 0 0;
+}
+
+#tagline h1 {
+    font-size: 40px;
+    text-decoration: bold;
+    text-weight: heavy;
+    margin: 200px 150px 100px 150px;
+    color: white;
+}
+
+#tagline h1 em {
+    display: block;
+    margin-top: 20px;
+}
+
+a.button {
+    display: block;
+    height: 86px;
+    width: 305px;
+    background: lightgrey;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    line-height: 86px;
+}
+
+a.button:hover {
+    color: white;
+    text-shadow: 0 1px 5px #333;
+}
+
+a.button:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 150px;
+    color: black;
+}
